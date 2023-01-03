@@ -247,12 +247,12 @@ body {
 }
 @media (max-width: 1500px) {
   html {
-    font-size: 14px;
+    font-size: 13.5px;
   }
 }
-@media (max-width: 1400px) {
+@media (max-width: 1450px) {
   html {
-    font-size: 12px;
+    font-size: 13.2px;
   }
   .header-nav-item {
     margin-right: 2rem;
@@ -262,6 +262,32 @@ body {
   }
   .header-logo {
     padding: 0px 2rem;
+  }
+  .header-phone {
+    margin-right: 2rem;
+  }
+  .button {
+    padding: 1.5625rem 2rem;
+  }
+}
+@media (max-width: 1340px) {
+  html {
+    font-size: 12.2px;
+  }
+  .header-nav-item {
+    margin-right: 2rem;
+  }
+  .header-nav {
+    padding-left: 2rem;
+  }
+  .header-logo {
+    padding: 0px 2rem;
+  }
+  .header-phone {
+    margin-right: 2rem;
+  }
+  .button {
+    padding: 1.5625rem 2rem;
   }
 }
 @media (max-width: 1200px) {
@@ -276,5 +302,11 @@ body {
   }
   .header-logo {
     padding: 0px 1.875rem;
+  }
+  .header-phone {
+    margin-right: 1.875rem;
+  }
+  .button {
+    padding: 1.5625rem 2rem;
   }
 }
