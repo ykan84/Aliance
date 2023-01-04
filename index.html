@@ -16,6 +16,11 @@
   </head>
   <body>
     <nav class="navbar">
+      <a href="#" class="mobile-menu-toggle">
+        <div class="mobile-menu-line"></div>
+        <div class="mobile-menu-line"></div>
+        <div class="mobile-menu-line"></div>
+      </a>
       <a href="./" class="header-logo">
         <svg class="logo-svg">
           <use href="img/sprite.svg#logo-light"></use>
@@ -47,7 +52,12 @@
         </a>
       </div>
       <!-- /.header-phone -->
-      <button class="navbar-button button">Получить консультацию</button>
+      <button class="navbar-button button">
+        <svg class="button-icon" width="24" height="24">
+          <use href="img/sprite.svg#phone"></use>
+        </svg>
+        <span class="button-text">Получить консультацию</span>
+      </button>
     </nav>
     <!-- /.navbar -->
     <header class="header header-image">
@@ -63,7 +73,7 @@
             будущего проекта напрямую зависит от анализа существующих паттернов
             поведения.
           </div>
-          <div class="button">Подробнее о компании</div>
+          <div class="button header-button">Подробнее о компании</div>
         </div>
         <!-- header-content -->
         <ul class="header-features">
